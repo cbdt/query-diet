@@ -4,10 +4,18 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/cbdt/query-diet/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/cbdt/query-diet/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/cbdt/query-diet.svg?style=flat-square)](https://packagist.org/packages/cbdt/query-diet)
 
-Query monitoring and discreet display of query count and execution time.
+Query monitoring and discreet display of query count and execution time in the Laravel app.
 
-_How it looks when there is a bad query diet_
-![How it looks when there is a bad query diet](/example-bad-diet.png)
+This is a Query Diet having a good diet (6 queries, 0.5ms):
+
+![How it looks when there is a bad query diet](/example_good_diet.png)
+
+This is a Query Diet having a bad diet (28 queries, 79ms):
+
+![How it looks when there is a bad query diet](/example_bad_diet.png)
+
+
+This project is a port of the Ruby gem [query_diet](https://github.com/makandra/query_diet) to Laravel.
 
 ## Support us
 ## Installation
