@@ -1,4 +1,4 @@
-# Real-time query monitoring and discreet display of query count
+# Query Diet: Explore queries that have a bad diet
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/cbdt/query-diet.svg?style=flat-square)](https://packagist.org/packages/cbdt/query-diet)
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/cbdt/query-diet/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/cbdt/query-diet/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
