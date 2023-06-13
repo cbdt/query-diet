@@ -1,6 +1,6 @@
 {
     "name": "cbdt/query-diet",
-    "description": "Real-time query monitoring and discreet display of query count",
+    "description": "Query monitoring and discreet display of query count and execution time.",
     "keywords": [
         "cbdt",
         "laravel",
