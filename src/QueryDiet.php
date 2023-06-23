@@ -39,6 +39,9 @@ class QueryDiet
      */
     public function modifyResponse($response): void
     {
+        if (! $this->enabled()) {
+            return;
+        }
         $response->setContent(
             str_replace(
                 '</body>',
